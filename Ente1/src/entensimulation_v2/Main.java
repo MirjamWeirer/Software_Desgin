@@ -1,4 +1,4 @@
-package entensimulation;
+package entensimulation_v2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,7 @@ public class Main {
         entenhausen.add(new Stockente("Donald"));
         entenhausen.add(new Rotkopfente("Daisy"));
         entenhausen.add(new Stockente("Dagobert"));
+        entenhausen.add(new Gummiente("Trick"));
 
         for (Ente e : entenhausen){
             e.anzeigen();

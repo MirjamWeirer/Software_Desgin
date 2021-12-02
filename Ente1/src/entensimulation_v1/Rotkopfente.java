@@ -1,4 +1,4 @@
-package entensimulation;
+package entensimulation_v1;
 
 public class Rotkopfente extends Ente{
     public Rotkopfente(String name){

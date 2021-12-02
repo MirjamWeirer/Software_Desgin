@@ -1,8 +1,8 @@
-package entensimulation;
+package entensimulation_v2;
 
-public class Stockente extends Ente{
+public class Stockente extends Ente {
     public Stockente (String name){
-        super(name);
+        super(name,1);
     }
     @Override
     public void anzeigen() {
