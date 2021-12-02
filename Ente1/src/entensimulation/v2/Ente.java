@@ -1,4 +1,4 @@
-package entensimulation_v2;
+package entensimulation.v2;
 
 public abstract class Ente {
     private String name;

@@ -1,8 +1,10 @@
-package entensimulation_v2;
+package entensimulation.v1;
+
+import entensimulation.v1.Ente;
 
 public class Stockente extends Ente {
     public Stockente (String name){
-        super(name,1);
+        super(name);
     }
     @Override
     public void anzeigen() {

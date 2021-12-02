@@ -1,8 +1,8 @@
-package entensimulation_v1;
+package entensimulation.v2;
 
-public class Rotkopfente extends Ente{
+public class Rotkopfente extends Ente {
     public Rotkopfente(String name){
-        super(name);
+        super(name, 2);
     }
 
     @Override

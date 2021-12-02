@@ -1,4 +1,4 @@
-package entensimulation_v1;
+package entensimulation.v1;
 
 import java.util.ArrayList;
 import java.util.List;

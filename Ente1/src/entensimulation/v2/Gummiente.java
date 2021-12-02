@@ -1,4 +1,4 @@
-package entensimulation_v2;
+package entensimulation.v2;
 
 public class Gummiente extends Ente{
     public Gummiente (String name){
