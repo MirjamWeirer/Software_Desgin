@@ -14,6 +14,8 @@ public abstract class Ente {
     }
     /*
         - Bei Erweiterung müssen wir immer dieses (sonst schon funktionsfähige) Objekt anpassen
+          (wir könnten ja unabsichtlich einen Fehler in bestehen funktionsfähigen Code einbauen)
+        - Methode wird sehr lange und unübersichtlich
      */
     public void fliegen(){
         switch (flugVerhalten){
