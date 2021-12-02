@@ -12,7 +12,9 @@ public abstract class Ente {
     public void quacken(){
         System.out.println("Ente " + name + " quackt");
     }
-
+    /*
+        - Bei Erweiterung müssen wir immer dieses (sonst schon funktionsfähige) Objekt anpassen
+     */
     public void fliegen(){
         switch (flugVerhalten){
             case 1:
