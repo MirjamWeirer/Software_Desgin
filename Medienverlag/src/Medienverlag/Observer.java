@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface Observer {
+package Medienverlag;
+
+public interface Observer {
+    public void update(String titel, String inhalt);
 }
