@@ -12,7 +12,6 @@ public class Singleton {
     }
     //stellvertretend für die ganze Funktionalität in der Klasse
     public String getInfo(){
-       String  test = "Winke Winke";
-       return test;
+       return "Winke Winke";
     }
 }
