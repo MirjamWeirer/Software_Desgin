@@ -32,11 +32,8 @@ public class Parcel {
         return calcStrategy;
     }
 
-    public double calcPrice(){
-        if (transporter != null){
-            return calcStrategy.calcPrice(this.getCalcStrategy());
-        }
-        return 0.0;
+    public double calcPrice(CalcStrategy strategy){
+      return strategy.calcPrice(this);
     }
 
 
