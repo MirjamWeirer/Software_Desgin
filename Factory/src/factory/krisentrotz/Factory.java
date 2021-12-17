@@ -1,9 +1,9 @@
 package factory.krisentrotz;
 
 public abstract class Factory {
-    protected abstract Auto erstelleAuto(Enum<AutoTyp> autoTypEnum);
+    protected abstract Auto erstelleAuto(AutoTyp autoTypEnum);
 
-    public Auto produziereAuto(Enum<AutoTyp> AutoTyp){
+    public Auto produziereAuto(AutoTyp AutoTyp){
         Auto auto = erstelleAuto(AutoTyp);
 
         System.out.println("---- Produziere " + auto.getAutoTypEnum() + " ----");

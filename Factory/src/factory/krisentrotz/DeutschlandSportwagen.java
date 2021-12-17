@@ -1,7 +1,7 @@
 package factory.krisentrotz;
 
-public class DeutschlandPKW extends Auto{
-    public DeutschlandPKW(){
-        autoTypEnum = AutoTyp.PKW;
+public class DeutschlandSportwagen extends Auto{
+    public DeutschlandSportwagen(){
+        autoTypEnum = AutoTyp.Sportwagen;
     }
 }
