@@ -25,13 +25,16 @@ public class Main {
             String s = scanner.next();
             if(s.equals("q"))
                 break;
-            if (s.equals("undo")){
-                fb.undo();
-                break;
-            }
+
+
+
             try {
-                Integer key = Integer.parseInt(s);
-                fb.knopfGedrückt(key);
+                if (s.equals("undo")) {
+                    fb.undo();
+                }else{
+                    Integer key = Integer.parseInt(s);
+                    fb.knopfGedrückt(key);
+                }
 
             } catch (NumberFormatException e) {
                 System.out.println("Keine gültige Taste!");
