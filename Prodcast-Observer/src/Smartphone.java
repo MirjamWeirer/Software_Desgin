@@ -9,7 +9,7 @@ public class Smartphone implements Observer{
     }
     public void stopReceivingProdcast(){
         prodcast.removeObserver(this);
-        prodcast = null;
+        //prodcast = null;
     }
     public void startReceivingProdcast(){
         prodcast.registerObserver(this);
