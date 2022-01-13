@@ -1,4 +1,4 @@
-package beispiel.command;
+package commandv2;
 
 public class Licht {
     public void an(){

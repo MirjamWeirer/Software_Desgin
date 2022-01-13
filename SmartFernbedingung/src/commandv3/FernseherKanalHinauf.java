@@ -1,6 +1,6 @@
-package beispiel.command;
+package commandv3;
 
-public class FernseherKanalHinauf implements Kommando{
+public class FernseherKanalHinauf implements Kommando {
     private Tv tv;
 
     public FernseherKanalHinauf(Tv tv){
@@ -14,6 +14,15 @@ public class FernseherKanalHinauf implements Kommando{
             tv.ein();
         } else {
             tv.rauf();
+        }
+    }
+
+    @Override
+    public void undo() {
+        if (!tv.istEin()) {
+            tv.ein();
+        } else {
+            tv.runter();
         }
     }
 }

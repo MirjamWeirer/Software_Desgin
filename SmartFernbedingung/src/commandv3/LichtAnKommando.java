@@ -1,4 +1,4 @@
-package beispiel.command;
+package commandv3;
 
 public class LichtAnKommando implements Kommando {
     private Licht licht;
@@ -13,5 +13,10 @@ public class LichtAnKommando implements Kommando {
     @Override
     public void ausfuehren() {
         licht.an();
+    }
+
+    @Override
+    public void undo() {
+        licht.aus();
     }
 }

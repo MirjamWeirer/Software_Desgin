@@ -1,4 +1,4 @@
-package beispiel.command;
+package commandv3;
 
 import java.util.Scanner;
 
@@ -25,7 +25,9 @@ public class Main {
             String s = scanner.next();
             if(s.equals("q"))
                 break;
-
+            if (s.equals("undo")){
+                fb.undo();
+            }
             try {
                 Integer key = Integer.parseInt(s);
                 fb.knopfGedrückt(key);

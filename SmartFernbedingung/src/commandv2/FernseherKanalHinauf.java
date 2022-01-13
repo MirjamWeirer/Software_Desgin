@@ -1,9 +1,10 @@
-package beispiel.command;
+package commandv2;
 
-public class FernseherKanalRunter implements Kommando{
+public class FernseherKanalHinauf implements Kommando{
     private Tv tv;
 
-    public FernseherKanalRunter(Tv tv){
+    public FernseherKanalHinauf(Tv tv){
+        super();
         this.tv = tv;
 
     }
@@ -12,7 +13,7 @@ public class FernseherKanalRunter implements Kommando{
         if (!tv.istEin()) {
             tv.ein();
         } else {
-            tv.runter();
+            tv.rauf();
         }
     }
 }

@@ -1,4 +1,4 @@
-package beispiel.command;
+package commandv2;
 
 import java.util.HashMap;
 import java.util.Map;
