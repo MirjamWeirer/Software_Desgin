@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class FernseherFernbediengung {
+public class Fernbediengung {
     Map<Integer, Kommando> kommandos = new HashMap<Integer, Kommando>();
     Stack<Kommando> kommandoStack = new Stack<>();
-    public FernseherFernbediengung (){}
+    public Fernbediengung(){}
     public void setKommando (Integer slot, Kommando k){
         kommandos.put(slot, k);
     }
@@ -22,6 +22,7 @@ public class FernseherFernbediengung {
 //        if (u.equals("undo")){
 //            kommandoStack.pop();
 //        }
-        kommandoStack.pop();
+        Kommando k = kommandoStack.pop();
+        k.undo();
     }
 }

@@ -6,7 +6,7 @@ public class Main {
     //das ist unser klient im pattern
     public static void main(String[] args) {
         //Fernbedingung ist unser aufrufer (invoker)
-        FernseherFernbediengung fb = new FernseherFernbediengung();
+        Fernbediengung fb = new Fernbediengung();
         Licht licht = new Licht();
         Tv tv = new Tv();
 
@@ -27,6 +27,7 @@ public class Main {
                 break;
             if (s.equals("undo")){
                 fb.undo();
+                break;
             }
             try {
                 Integer key = Integer.parseInt(s);

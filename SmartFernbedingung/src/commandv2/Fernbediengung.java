@@ -3,9 +3,9 @@ package commandv2;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FernseherFernbediengung {
+public class Fernbediengung {
     Map<Integer, Kommando> kommandos = new HashMap<Integer,Kommando>();
-    public FernseherFernbediengung (){}
+    public Fernbediengung(){}
     public void setKommando (Integer slot, Kommando k){
         kommandos.put(slot, k);
     }
