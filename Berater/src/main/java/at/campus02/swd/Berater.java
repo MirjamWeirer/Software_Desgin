@@ -19,7 +19,7 @@ public class Berater {
         this.name = name;
     }
 
-    public double getHourlyRate() {
+    public double getStundensatz() {
         return hourlyRate;
     }
 
@@ -27,7 +27,7 @@ public class Berater {
         this.hourlyRate = hourlyRate;
     }
 
-    public double getDailyRate() {
+    public double getTagsatz() {
         return dailyRate;
     }
 
