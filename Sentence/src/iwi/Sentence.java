@@ -16,6 +16,6 @@ public class Sentence implements Iterable<String>{
 
     @Override
     public Iterator<String> iterator() {
-        return null;
+        return new SentenceIterator(words);
     }
 }
